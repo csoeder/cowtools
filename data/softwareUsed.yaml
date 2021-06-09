@@ -1,0 +1,21 @@
+software:
+    - name: Trinity
+      version: 2.8.6
+      purpose: reference-free transcriptome assembly
+      link: https://github.com/trinityrnaseq/trinityrnaseq/wiki
+      bibtex: Grabherr2011;Haas2013
+    - name: BEDtools
+      version: 2.29.0
+      purpose: genomic feature manipulation and Analysis
+      link: https://bedtools.readthedocs.io/
+      bibtex: Quinlan2010
+    - name: SAMtools
+      version: 1.9
+      purpose: sequence alignment manipulation and Analysis
+      link: http://www.htslib.org/doc/samtools.1.html
+      bibtex: Li2009
+    - name: MapSplice2
+      version: 2.1.8
+      purpose: splice-aware RNA-Seq alignment
+      link: http://www.netlab.uky.edu/p/bioinfo/MapSplice2
+      bibtex: Wang2010
